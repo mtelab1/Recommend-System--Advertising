@@ -1,0 +1,38 @@
+---
+title: "Recommend System- Advertising"
+author: "Mustafa Telab"
+date: "11/7/2020"
+output:
+  pdf_document: default
+  PDF: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Introduction
+
+The internet contains endless creative and interesting content.  The creators of which may not be experts in monetization.  The recommender system described in the paper "A Recommender System for Online Advertising" makes it simple for a website operator to make the most of the available add space.
+
+## Scenario Design Analysis
+
+1. The Target users are web site operators who have a portion of page space dedicated to ads.
+
+2. The Goal is to utilize the consumer web browsing patterns to assign the most relevant advertisement in the given space.  The desired outcome is to maximize revenue.
+
+3.  The Recommend System helps accomplish this goal by tracking certain user metrics such as browser history and site duration.  Using a K-Mean clustering method, extrapolation can be made to group users on limited data.  The Algorithm also does text analysis on the sites visited to help clustering even further.
+
+
+## Recommendation
+
+One parameter that I do not see referenced in this paper is advertisement user sensitivity.  In other word, it would be helpful to determine how much a particular user dislikes ad space, and therefore is likely to exist web pages for that reason.  By taking this into account, perhaps the system can recommend how many ads, or how big the ads should be; instead of only recommending what the ad should be.
+
+## Conclusion
+
+I believe that there is a certain negative air about advertisement recommendations.  I would argue to the contrary.  Better, more targeted, ads help both the web page provider and the user.  By making advertisements more target, they are more profitable, and there is less need for other clunky and distracting advertisements. 
+
+M. Sree Vani. “A Recommender System for Online Advertising.” International Journal of Advanced Research in Computer and Communication Engineering, Vol. 5, Issue 2, February 2016.
+
+https://www.ijarcce.com/upload/2016/february-16/IJARCCE%20137.pdf
